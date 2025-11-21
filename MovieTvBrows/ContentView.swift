@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView{
             Tab("Home", systemImage: "house"){
-                
+                HomeView()
             }
             Tab("Upcomming", systemImage: "play.circle"){
                 
